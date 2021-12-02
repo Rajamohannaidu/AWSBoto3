@@ -5,7 +5,7 @@ import boto3
 # print(key_pair)
 
 ec2=boto3.client("ec2")
-myKeyName="rajamohann"
+myKeyName="rajamohann1"
 response=ec2.create_key_pair(KeyName=myKeyName)
 with open(myKeyName+".pem","w") as f:
     f.write(response["KeyMaterial"])
