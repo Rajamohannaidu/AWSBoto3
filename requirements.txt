@@ -11,3 +11,5 @@ rsa==4.7.2
 s3transfer==0.5.0
 six==1.16.0
 urllib3==1.26.7
+https://raw.githubusercontent.com/NubeEra-Samples/DataSets/master/data.csv
+https://github.com/NubeEra-Samples/02.SVodaAWSBoto301Dec03Dec.git
